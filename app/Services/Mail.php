@@ -11,6 +11,7 @@ use App\Services\Mail\Ses;
 use App\Services\Mail\Smtp;
 use App\Services\Mail\SendGrid;
 use App\Services\Mail\NullMail;
+use App\Services\Mail\Sendcloud;
 use Smarty;
 
 class Mail
@@ -24,6 +25,8 @@ class Mail
         switch ($driver) {
             case "mailgun":
                 return new Mailgun();
+            case "sendcloud":
+                return new Sendcloud();
             case "ses":
                 return new Ses();
             case "smtp":
