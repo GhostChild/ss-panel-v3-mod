@@ -10,7 +10,7 @@ $System_Config['sc_fromName'] = '';
 
 并修改
 $System_Config['mailDriver'] = 'sendcloud';
-
+.
 
 # 介绍
 
