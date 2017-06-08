@@ -1,4 +1,4 @@
-#添加sendcloud邮件接口
+# 添加sendcloud邮件接口
 
 # 用法
 .config.php文件添加
