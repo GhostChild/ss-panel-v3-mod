@@ -55,6 +55,12 @@ $System_Config['mailgun_key'] = '';
 $System_Config['mailgun_domain'] = '';
 $System_Config['mailgun_sender'] = '';
 
+#sendcloud
+$System_Config['sc_API_USER'] = '';
+$System_Config['sc_API_KEY'] = '';
+$System_Config['sc_from'] = '';
+$System_Config['sc_fromName'] = '';
+
 # smtp
 $System_Config['smtp_host'] = '';
 $System_Config['smtp_username'] = '';
