@@ -1,12 +1,12 @@
-#添加sendcloud邮件接口
+#添加sendcloud邮件接口  
 
 # 用法
-.config.php文件添加
-#sendcloud
-$System_Config['sc_API_USER'] = '';
-$System_Config['sc_API_KEY'] = '';
-$System_Config['sc_from'] = '';
-$System_Config['sc_fromName'] = '';
+.config.php文件添加  
+#sendcloud  
+$System_Config['sc_API_USER'] = '';  
+$System_Config['sc_API_KEY'] = '';  
+$System_Config['sc_from'] = '';  
+$System_Config['sc_fromName'] = '';  
 
 并修改
 $System_Config['mailDriver'] = 'sendcloud';
